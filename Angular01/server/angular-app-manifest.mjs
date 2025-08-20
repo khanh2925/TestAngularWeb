@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/Angular01/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/Angular01"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 434, hash: '4d2cc6281ff79f703c3099332512124ffe36b6bbcd14fa56c6b6538f9d8fdeea', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 947, hash: '261e222e70fd38fbfaca720d3601e0ddf89d1c4347fc62af1c6e0a04f2bcb236', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 884, hash: '6abdc28d05d9dd33a3c2bce874a21432a104dd2558cffce47bcb14fdb9d7110e', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 444, hash: 'bb2f7a13d0754fb15339bc9ea592c83e9fe220d1405d54ac7a7db157aae6d9af', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 957, hash: '83dae2a3f1cd71908c49e531950b6dcd70ad3e68ec796263edfee4c9bd5ec6a5', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 894, hash: 'f2b7208acfe5978e5d52b05eff35a44413c0449ab4d3b3877570dd0325cca130', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
