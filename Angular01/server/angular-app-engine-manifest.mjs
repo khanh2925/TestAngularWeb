@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/Angular01',
+  basePath: '/TestAngularWeb',
   supportedLocales: {
   "en-US": ""
 },
